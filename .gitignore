@@ -1,0 +1,70 @@
+# Arquivos de binários compilados
+bin/
+obj/
+out/
+
+# Arquivos de símbolos de depuração
+*.pdb
+
+# Arquivos de saída de publicação
+publish/
+
+# Pacotes NuGet
+*.nupkg
+# A pasta packages pode ser usada por ferramentas antigas do NuGet, melhor ignorar
+packages/
+
+# Arquivos temporários de desenvolvimento
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.njsproj
+*.idea/
+
+# Arquivos de configuração do VS Code
+.vscode/
+
+# Arquivos de configuração do Visual Studio
+.vs/
+*.opendb
+*.dbmdl
+
+# Arquivos de banco de dados SQL local
+*.mdf
+*.ldf
+*.ndf
+
+# Arquivos de log e backups
+*.log
+*.bak
+*.tmp
+
+# Arquivos de cache locais do projeto
+*.csproj.*.user
+*.cache
+*.vsp
+*.swp
+*.swo
+
+# Outros arquivos de ambiente
+.env
+*.env
+.secret
+
+# Pasta de artefatos gerada por algumas IDEs
+artifacts/
+
+# Arquivos específicos do sistema operacional
+.DS_Store # macOS-specific
+Thumbs.db # Windows-specific
+
+# Pasta de teste de saída
+TestResults/
+
+# Pastas e arquivos de build
+Dockerfile.*.tmp
+docker-compose*.yml
+
+# Outros arquivos de desenvolvimento específicos
+*.moq
